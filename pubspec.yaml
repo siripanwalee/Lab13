@@ -1,0 +1,18 @@
+name: expense_tracker_provider
+description: ปฏิบัติการบทที่ 13 - แอปบัญชีรายรับ-รายจ่ายด้วย Provider และ SQLite
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.4.2
+  path: ^1.9.1 # สำหรับ join() ใน transaction_provider.dart
+  provider: ^6.1.5+1
+  intl: ^0.20.2 # สำหรับ DateFormat
+
+flutter:
+  uses-material-design: true
